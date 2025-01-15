@@ -1,0 +1,15 @@
+<hr>
+<div class="faturamento-container">
+    <br>
+    <h6>3) Análise de Faturamento</h6>
+    <button class="btn btn-primary" (click)="calcularFaturamento()">Recalcular Faturamento</button>
+    <br>
+    <p class="pt-2 pb-2">
+        Mensagem:<b> {{ mensagem }}</b>
+    </p>
+    <div *ngIf="faturamento.length > 0">
+      <p><strong>(-) Menor faturamento:</strong> {{ menorFaturamento | currency:'BRL' }}</p>
+      <p><strong>(+) Maior faturamento:</strong> {{ maiorFaturamento | currency:'BRL' }}</p>
+      <p><strong>Dias acima da média mensal:</strong> {{ diasAcimaMedia }}</p>
+    </div>
+</div>

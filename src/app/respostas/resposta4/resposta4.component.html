@@ -1,0 +1,26 @@
+<hr>
+<br>
+<div class="row">
+  <div class="col-12">
+      <h6>4) Faturamento mensal</h6>
+      <table #dataTableFaturamento class="table table-striped table-hover w-100">
+          <thead>
+              <tr>
+                  <th>Nome</th>
+                  <th>Faturamento</th>
+                  <th>Percentual</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let f of estadosComPercentual">
+                  <td> {{ f.nome }}</td>
+                  <td> {{ f.faturamento | currency:'BRL' }}</td>
+                  <td> {{ f.percentual | currency:'BRL' }}</td>
+              </tr>
+              <tr *ngIf="estadosComPercentual.length === 0">
+                  <td class="text-center" colspan="8">Nenhum faturamento cadastrado</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</div>

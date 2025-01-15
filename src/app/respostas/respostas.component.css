@@ -1,0 +1,10 @@
+.banner-imagem {
+    max-width: 100%;
+    text-align: center;
+}
+
+.banner-imagem img {
+    max-width: 100%;
+    max-height: 250px;
+}
+

@@ -1,0 +1,19 @@
+<hr>
+<h6>2) Verificador de Fibonacci</h6>
+
+<form class="row g-3">
+    <div class="col-4">
+        <input
+            id="numero"
+            name="numero"
+            type="number"
+            class="form-control"
+            [(ngModel)]="numero"
+            placeholder="Digite um número"
+        />
+    </div>
+    <div class="col-2">
+        <button class="btn btn-danger w-100" (click)="respostaTecnica_2()">Verificar</button>
+    </div>
+    <p>Mensagem: <strong>{{ mensagem }}</strong></p>
+</form>
