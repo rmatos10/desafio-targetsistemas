@@ -12,10 +12,9 @@ Projeto para avaliação de aplicação web desenvolvido para processo seletivo 
 * [Contato](#email-contato)
 
 ## Sobre a aplicação
-Este projeto de aplicação foi desenvolvido durante um desafio proposto, para atender os requisitos que foram solicitados para processo seletivo de desenvolvedor front-end<br />
+Este projeto de aplicação foi desenvolvido durante um desafio proposto, para atender os requisitos que foram solicitados para processo seletivo de desenvolvedor front-end.<br />
 A aplicação possui uma tela de respostas, com as questões respondidas de um a cinco.<br/>
 Pensado na expansão do projeto, foi construido uma aplicação em __Angular 12__ com validações de usuário, notificações com __Toastr__ e ferramentas projetadas para o futuro da aplicação, como por exemplo: guardião de rotas, serviço de autenticação de usuário para logar/sair da sessão (base de implementação), adição do plugin __Datatables__ dentro do projeto para eventualmente conectar com um servidor back-end, quando for necessário e trabalhar com maior número de dados.<br />
-Também foi criado um módulo para organizar a aplicação e um serviço de cartas, para gerenciar o CRUD em localStorage.
 
 ## :hammer_and_wrench: Tecnologias
 * Front-end
