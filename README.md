@@ -1,7 +1,7 @@
 <img src="./src/assets/img/targetsistemas.webp" width="40%" alt="Target Sistemas: Desafio">
 
 # Target Sistemas: Desafio
-Projeto para avaliação de aplicação web desenvolvido para processo seletivo de Desenvolvedor Front-end
+Projeto para avaliação de aplicação web desenvolvido para processo seletivo de Desenvolvedor Front-end.
 
 ## Conteúdo
 * [Sobre a aplicação](#sobre-a-aplicação)
